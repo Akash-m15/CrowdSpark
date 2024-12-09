@@ -35,11 +35,7 @@ export default function Page(){
                     keyAddress: value,
                     keyName: name[index],
                     description: (
-<<<<<<< HEAD
-                        <Link href={`/campaign/${value}`}>View campaign</Link>
-=======
-                        <Link href={`/campaign/address?address=${value}`}>view campaign</Link>
->>>>>>> a1f4db2f5bc262f1416c0a62f3cf05c8c2541ee8
+                        <Link href={`/campaign/${value}`}>view campaign</Link>
                     )
                 });
                 

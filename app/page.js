@@ -35,7 +35,7 @@ export default function Page(){
             <Login connectWallet={contractInit}></Login>
             {error? <div className="ui error message">
                         <div className="header">
-                            Error occured due to one of the following problems.
+                            Error occurred due to one of the following problems.
                         </div>
                         <ul className="list">
                             <li>MetaMask is not installed: Please install metamask to continue</li>
